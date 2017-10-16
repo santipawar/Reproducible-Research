@@ -296,7 +296,7 @@ Watching the histogram we can note than the only bin that is changed is the inte
 *2. Make a panel plot containing a time series plot (i.e. type = "l") of the 5-minute interval (x-axis) and the average number of steps taken, averaged across all weekday days or weekend days (y-axis).*
 
 **1. Create a new factor variable in the dataset with two levels - "weekday" and "weekend" indicating whether a given date is a weekday or weekend day.**
-*DayType* is the new column indicating if the day is a weekday day or a weekend day: the first six values of the new table are shown below
+*DayType* is the new column indicating if the day is a weekday day or a weekend day. 
 
 
 ```r

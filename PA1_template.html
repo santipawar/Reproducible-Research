@@ -295,7 +295,7 @@ median(StepsPerDayFull$Steps)</code></pre>
 <div id="are-there-differences-in-activity-patterns-between-weekdays-and-weekends" class="section level3">
 <h3>Are there differences in activity patterns between weekdays and weekends?</h3>
 <p><em>For this part the weekdays() function may be of some help here. Use the dataset with the filled-in missing values for this part.</em> <em>1. Create a new factor variable in the dataset with two levels - “weekday” and “weekend” indicating whether a given date is a weekday or weekend day.</em> <em>2. Make a panel plot containing a time series plot (i.e. type = “l”) of the 5-minute interval (x-axis) and the average number of steps taken, averaged across all weekday days or weekend days (y-axis).</em></p>
-<p><strong>1. Create a new factor variable in the dataset with two levels - “weekday” and “weekend” indicating whether a given date is a weekday or weekend day.</strong> <em>DayType</em> is the new column indicating if the day is a weekday day or a weekend day: the first six values of the new table are shown below</p>
+<p><strong>1. Create a new factor variable in the dataset with two levels - “weekday” and “weekend” indicating whether a given date is a weekday or weekend day.</strong> <em>DayType</em> is the new column indicating if the day is a weekday day or a weekend day.</p>
 <pre class="r"><code># Create variable with date in correct format
 activityFull$RealDate &lt;- as.Date(activityFull$date, format = &quot;%Y-%m-%d&quot;)
 # create a variable with weekdays name
