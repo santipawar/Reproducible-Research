@@ -1,8 +1,4 @@
----
-title: "Reproducible Research - Week 2 - Project 1"
-author: "Santosh Pawar"
-date: "October 15, 2017"
-output: html_document
+
 ---
 
 title: "Reproducible Research - Peer-graded Assignment: Course Project 1"
